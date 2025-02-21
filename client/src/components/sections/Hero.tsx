@@ -5,21 +5,35 @@ import { Avatar } from "@/components/ui/avatar";
 
 export default function Hero() {
   return (
-    <div className="min-h-screen flex items-center justify-center px-4 sm:px-6 lg:px-8 pt-20">
-      <div className="max-w-7xl mx-auto text-center">
+    <div className="min-h-screen flex items-center justify-center px-4 sm:px-6 lg:px-8 pt-20 relative overflow-hidden">
+      {/* Animated Background Pattern */}
+      <div className="absolute inset-0 bg-[#0F172A]">
+        <div className="absolute inset-0 bg-gradient-to-r from-[#2DD4BF]/10 via-[#3B82F6]/10 to-[#8B5CF6]/10 animate-gradient-x"></div>
+        <div className="absolute inset-0 opacity-30">
+          <div className="absolute w-96 h-96 -top-10 -left-10 bg-[#2DD4BF]/20 rounded-full mix-blend-multiply filter blur-xl animate-blob"></div>
+          <div className="absolute w-96 h-96 -top-10 -right-10 bg-[#3B82F6]/20 rounded-full mix-blend-multiply filter blur-xl animate-blob animation-delay-2000"></div>
+          <div className="absolute w-96 h-96 -bottom-10 left-10 bg-[#8B5CF6]/20 rounded-full mix-blend-multiply filter blur-xl animate-blob animation-delay-4000"></div>
+        </div>
+      </div>
+
+      <div className="max-w-7xl mx-auto text-center relative z-10">
         <motion.div
           initial={{ scale: 0 }}
           animate={{ scale: 1 }}
           transition={{ duration: 0.5 }}
           className="mb-8 flex justify-center"
         >
-          <Avatar className="w-32 h-32 border-4 border-[#2DD4BF]">
-            <img 
-              src="/profile.jpg" 
-              alt="Farooque Malik"
-              className="object-cover"
-            />
-          </Avatar>
+          {/* Animated Avatar Border */}
+          <div className="relative">
+            <div className="absolute -inset-1 bg-gradient-to-r from-[#2DD4BF] via-[#3B82F6] to-[#8B5CF6] rounded-full animate-spin-slow"></div>
+            <Avatar className="w-32 h-32 border-4 border-[#0F172A] relative">
+              <img 
+                src="/profile.jpg" 
+                alt="Farooque Malik"
+                className="object-cover rounded-full"
+              />
+            </Avatar>
+          </div>
         </motion.div>
 
         <motion.div
