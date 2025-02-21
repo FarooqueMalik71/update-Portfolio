@@ -28,7 +28,7 @@ export default function Hero() {
             <div className="absolute -inset-1 bg-gradient-to-r from-[#2DD4BF] via-[#3B82F6] to-[#8B5CF6] rounded-full animate-spin-slow"></div>
             <Avatar className="w-32 h-32 border-4 border-[#0F172A] relative">
               <img 
-                src="/profile.jpg" 
+                src="https://i.imgur.com/YourProfilePic.jpg" // Replace with your actual profile picture URL
                 alt="Farooque Malik"
                 className="object-cover rounded-full"
               />

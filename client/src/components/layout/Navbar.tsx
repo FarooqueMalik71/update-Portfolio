@@ -37,7 +37,7 @@ export default function Navbar() {
             <Button 
               variant="outline"
               className="border-[#2DD4BF] text-[#2DD4BF] hover:bg-[#2DD4BF] hover:text-[#0F172A]"
-              onClick={() => window.open("/resume.pdf", "_blank")}
+              onClick={() => window.open("https://my-resume-phi-snowy.vercel.app/", "_blank")}
             >
               Resume
             </Button>
@@ -77,7 +77,7 @@ export default function Navbar() {
               <Button 
                 variant="outline"
                 className="w-full mt-4 border-[#2DD4BF] text-[#2DD4BF] hover:bg-[#2DD4BF] hover:text-[#0F172A]"
-                onClick={() => window.open("/resume.pdf", "_blank")}
+                onClick={() => window.open("https://my-resume-phi-snowy.vercel.app/", "_blank")}
               >
                 Resume
               </Button>

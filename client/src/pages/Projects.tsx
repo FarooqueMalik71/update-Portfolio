@@ -5,7 +5,7 @@ const projects = [
   {
     title: "Full Stack E-commerce Website",
     description: "A complete e-commerce solution built with React, Node.js, and PostgreSQL. Features include user authentication, product management, shopping cart, and secure checkout.",
-    image: "/projects/ecommerce.png",
+    image: "https://i.imgur.com/NvWEXr1.png", // Using placeholder URLs until actual screenshots are uploaded
     technologies: ["React", "Node.js", "PostgreSQL", "Express", "Tailwind CSS"],
     link: "https://your-ecommerce-site.com",
     github: "https://github.com/your-username/ecommerce"
@@ -13,7 +13,7 @@ const projects = [
   {
     title: "Todo List",
     description: "A JavaScript, HTML, CSS based App for managing and organizing your Tasks efficiently.",
-    image: "/projects/todo.png",
+    image: "https://i.imgur.com/8PoPuYr.png",
     technologies: ["JavaScript", "HTML", "CSS", "Node"],
     link: "#",
     github: "https://github.com/your-username/todo"
@@ -21,7 +21,7 @@ const projects = [
   {
     title: "Countdown Timer",
     description: "A JavaScript, HTML, CSS based App Powered website to track Time with an interactive countdown feature.",
-    image: "/projects/timer.png",
+    image: "https://i.imgur.com/Q3GgXRZ.png",
     technologies: ["JavaScript", "HTML", "CSS", "Node"],
     link: "#",
     github: "https://github.com/your-username/timer"
@@ -29,7 +29,7 @@ const projects = [
   {
     title: "Calculator",
     description: "Responsive calculator app using JavaScript, Node.js, HTML, and CSS for basic arithmetic operations.",
-    image: "/projects/calculator.png",
+    image: "https://i.imgur.com/YQ2QE3R.png",
     technologies: ["JavaScript", "HTML", "CSS", "Node"],
     link: "#",
     github: "https://github.com/your-username/calculator"
@@ -37,7 +37,7 @@ const projects = [
   {
     title: "Static Interactive Resume",
     description: "A TypeScript-based Interactive resume built with HTML, CSS allowing users to showcase their skills dynamically.",
-    image: "/projects/resume.png",
+    image: "https://i.imgur.com/L6qYXdL.png",
     technologies: ["TypeScript", "HTML", "CSS", "Node"],
     link: "#",
     github: "https://github.com/your-username/resume"
@@ -45,7 +45,7 @@ const projects = [
   {
     title: "Clothing Website",
     description: "An online shopping clothing website built using JavaScript, HTML, and CSS, featuring stylish collections.",
-    image: "/projects/clothing.png",
+    image: "https://i.imgur.com/WpH5FkW.png",
     technologies: ["TypeScript", "HTML", "CSS", "Bootstrap"],
     link: "#",
     github: "https://github.com/your-username/clothing"
