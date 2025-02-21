@@ -26,12 +26,10 @@ export default function Hero() {
           {/* Animated Avatar Border */}
           <div className="relative">
             <div className="absolute -inset-1 bg-gradient-to-r from-[#2DD4BF] via-[#3B82F6] to-[#8B5CF6] rounded-full animate-spin-slow"></div>
-            <Avatar className="w-32 h-32 border-4 border-[#0F172A] relative">
-              <img 
-                src="https://via.placeholder.com/150" // Replace with your actual profile picture URL
-                alt="Farooque Malik"
-                className="object-cover rounded-full"
-              />
+            <Avatar className="w-32 h-32 border-4 border-[#0F172A] relative"
+              style={{backgroundImage: `url("images/profile-pic.png")`, backgroundSize: "cover", backgroundPosition: "center"}}
+            >
+              <div className="absolute inset-0 rounded-full animate-pulse bg-gradient-to-r from-[#2DD4BF] via-[#3B82F6] to-[#8B5CF6] opacity-70"></div>
             </Avatar>
           </div>
         </motion.div>
