@@ -5,18 +5,18 @@ const projects = [
   {
     title: "Full Stack E-commerce Website",
     description: "A complete e-commerce solution built with React, Node.js, and PostgreSQL. Features include user authentication, product management, shopping cart, and secure checkout.",
-    image: "https://i.imgur.com/NvWEXr1.png", // Using placeholder URLs until actual screenshots are uploaded
+    image: "/images/projects/ecommerce.png",
     technologies: ["React", "Node.js", "PostgreSQL", "Express", "Tailwind CSS"],
-    link: "https://your-ecommerce-site.com",
-    github: "https://github.com/your-username/ecommerce"
+    link: "Your live link here",
+    github: "Your GitHub link here"
   },
   {
     title: "Todo List",
     description: "A JavaScript, HTML, CSS based App for managing and organizing your Tasks efficiently.",
-    image: "https://i.imgur.com/8PoPuYr.png",
+    image: "/images/projects/todo.png",
     technologies: ["JavaScript", "HTML", "CSS", "Node"],
-    link: "#",
-    github: "https://github.com/your-username/todo"
+    link: "Your live link here",
+    github: "Your GitHub link here"
   },
   {
     title: "Countdown Timer",
