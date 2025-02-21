@@ -39,8 +39,11 @@ export async function setupVite(app: Express, server: Server) {
         process.exit(1);
       },
     },
-    server: serverOptions,
-    appType: "custom",
+    server: {
+      ...serverOptions,
+      allowedHosts: undefined
+    },
+    appType: "custom", 
   });
 
   app.use(vite.middlewares);
